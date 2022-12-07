@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "Envelope AS3310 ADSR")
+    (title "Envelope Generator AS3310")
     (date "2022-12-06")
     (rev "1.0")
     (company "RobotDialogs")
@@ -3728,7 +3728,7 @@
   (symbol (lib_id "Device:C") (at 163.83 60.325 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2d00b297-b75e-4ac2-8956-5cdf76e11101)
-    (property "Reference" "CALT_2" (id 0) (at 161.29 59.055 0)
+    (property "Reference" "CALT_6" (id 0) (at 161.29 59.055 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (id 1) (at 166.37 59.055 0)
@@ -4057,7 +4057,7 @@
   (symbol (lib_id "Device:C") (at 173.355 128.27 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 43968b13-86a1-43f9-a397-25296aa1c52a)
-    (property "Reference" "CALT_1" (id 0) (at 174.625 125.73 0)
+    (property "Reference" "CALT_5" (id 0) (at 174.625 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "39nF" (id 1) (at 174.625 130.81 0)
@@ -6818,10 +6818,10 @@
       (reference "C13") (unit 1) (value "100uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/43968b13-86a1-43f9-a397-25296aa1c52a"
-      (reference "CALT_1") (unit 1) (value "39nF") (footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm")
+      (reference "CALT_5") (unit 1) (value "39nF") (footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm")
     )
     (path "/2d00b297-b75e-4ac2-8956-5cdf76e11101"
-      (reference "CALT_2") (unit 1) (value "1uF") (footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm")
+      (reference "CALT_6") (unit 1) (value "1uF") (footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm")
     )
     (path "/776694d1-8de6-4198-adee-6b625f1fbdb9"
       (reference "D1") (unit 1) (value "D") (footprint "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal")
