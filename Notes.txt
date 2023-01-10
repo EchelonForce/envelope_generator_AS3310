@@ -1,1 +1,6 @@
+Issues on v1:
+ - Two header pins flipped (out/release) requires rework.
 
+Changes for v1.1
+ - Fix header pins flipped.
+ - Add orientation of trim pots to silkscreen.
